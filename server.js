@@ -5,8 +5,6 @@ const server = express()
 
 server.use(express.static('public'))
 
-
-
 function greets () {
     var greet = ["Hei", "Hallo", "hei hei"];
     var random = greet[Math.floor((Math.random()*greet.length))];
