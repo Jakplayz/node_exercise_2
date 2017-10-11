@@ -12,7 +12,7 @@ function greets () {
 }
 
 server.get('/random/:id', function (req, res) {
-  res.send(greets() +" "+ req.params.id);
+  res.send(greets() +" "+ req.params.navn);
 
 })
 
