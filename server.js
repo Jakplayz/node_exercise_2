@@ -1,4 +1,6 @@
+const url = require('url')
 const express = require('express')
+const bodyParser = require('body-parser');
 const server = express()
 
 server.use(express.static('public'))
