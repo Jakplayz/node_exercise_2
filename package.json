@@ -10,6 +10,12 @@
     "type": "git",
     "url": "node_exercise_2"
   },
+
+  "keywords": [
+      "server",
+      "test"
+  ],
+    
   "author": "Marius Jakobsen",
   "license": "ISC",
   "dependencies": {
