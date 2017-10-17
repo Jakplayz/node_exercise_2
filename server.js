@@ -11,7 +11,7 @@ function greeter () {
     return random;
 }
 
-server.get('/random/:id', function (req, res) {
+server.get('/random/:greeter', function (req, res) {
   res.send(greeter() +" "+ req.params.navn);
 
 })
@@ -25,6 +25,3 @@ server.listen(32463, function () {
 
 }
 
-app.get('/hehe/:navn', function (req, res) {
-  res.send(randomGreeting() + " " + req.params.navn)
-})
